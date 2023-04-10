@@ -1,17 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import { ThemeProvider } from 'styled-components';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './index.css';
+
+const theme = {
+    background: '#f5f8fb',
+    fontFamily: 'Montserrat',
+    headerBgColor: '#800020',
+    headerFontColor: '#fff',
+    headerFontSize: '15px',
+    botBubbleColor: '#800020',
+    botFontColor: '#fff',
+    userBubbleColor: '#fff',
+    userFontColor: '#4a4a4a',
+};
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <ThemeProvider theme={theme}>
+        <App />
+    </ThemeProvider>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
