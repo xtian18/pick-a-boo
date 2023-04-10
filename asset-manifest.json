@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pick-a-boo/static/css/main.1dfab6dd.css",
+    "main.js": "/pick-a-boo/static/js/main.49ab47c1.js",
+    "index.html": "/pick-a-boo/index.html",
+    "main.1dfab6dd.css.map": "/pick-a-boo/static/css/main.1dfab6dd.css.map",
+    "main.49ab47c1.js.map": "/pick-a-boo/static/js/main.49ab47c1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1dfab6dd.css",
+    "static/js/main.49ab47c1.js"
+  ]
+}
